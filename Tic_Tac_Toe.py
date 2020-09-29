@@ -112,6 +112,7 @@ while True:
     player1_mark,player2_mark=player_choice()
     #choose whose going first
     turn=choose_first()
+    print(turn+' goes first')
     choice=input('ARE YOU READY ? : ')
     
     if choice.upper()[0]=='Y':
